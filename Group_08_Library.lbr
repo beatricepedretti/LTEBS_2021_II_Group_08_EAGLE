@@ -225,7 +225,15 @@ from GND to VDD</description>
 </devices>
 </deviceset>
 <deviceset name="TCA9546A">
-<description>&lt;strong &gt;1 Features&lt;/strong&gt;
+<description>The TCA9546A is a quad bidirectional translating switch controlled via the I&lt;sup&gt;2&lt;/sup&gt;C bus. The SCL/SDA
+upstream pair fans out to four downstream pairs, or channels. Any individual SCn/SDn channel or combination of channels can be selected, determined by the contents of the programmable control register.&lt;p&gt;
+An active-low reset (RESET) input allows the TCA9546A to recover from a situation in which one of the downstream I&lt;sup&gt;
+2&lt;/sup&gt;C buses is stuck in a low state. Pulling RESET low resets the I&lt;sup&gt;
+2&lt;/sup&gt;C state machine and causes all the channels to be deselected, as does the internal power-on reset function.&lt;p&gt;
+The pass gates of the switches are constructed such that the VCC pin can be used to limit the maximum high voltage, which will be passed by the TCA9546A. This allows the use of different bus voltages on each pair, so that 1.8-V, 2.5-V, or 3.3-V parts can communicate with 5-V parts without any additional protection. External pull-up resistors pull the bus up to the desired voltage level for each channel. All I/O pins are 5.5-V tolerant. &lt;p&gt;
+
+
+&lt;strong &gt;Features&lt;/strong&gt;
 &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;1-of-4 Bidirectional translating switches &lt;/li&gt;
 &lt;li&gt;I&lt;sup&gt;2&lt;/sup&gt;C Bus and SMBus compatible &lt;/li&gt;
@@ -252,28 +260,7 @@ TCA9546A devices on the I&lt;sup&gt;
 &lt;ul&gt;
 &lt;li&gt;4000-V Human-body model (A114-A)&lt;/li&gt;
 &lt;li&gt;1500-V Charged-device model (C101)&lt;/li&gt;
-&lt;/ul&gt;&lt;/ul&gt;
-
-
-&lt;p&gt;
-&lt;strong&gt;2 Applications&lt;/strong&gt;
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Servers&lt;/li&gt;
-&lt;li&gt;Routers (telecom switching equipment)&lt;/li&gt;
-&lt;li&gt;Factory automation&lt;/li&gt;
-&lt;li&gt;Products with I&lt;sup&gt;2&lt;/sup&gt;C slave address conflicts (multiple, identical temp sensors)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-
-&lt;strong&gt;3 Description&lt;/strong&gt;
-&lt;p&gt;
-The TCA9546A is a quad bidirectional translating switch controlled via the I&lt;sup&gt;2&lt;/sup&gt;C bus. The SCL/SDA
-upstream pair fans out to four downstream pairs, or channels. Any individual SCn/SDn channel or combination of channels can be selected, determined by the contents of the programmable control register.&lt;p&gt;
-An active-low reset (RESET) input allows the TCA9546A to recover from a situation in which one of the downstream I&lt;sup&gt;
-2&lt;/sup&gt;C buses is stuck in a low state. Pulling RESET low resets the I&lt;sup&gt;
-2&lt;/sup&gt;C state machine and causes all the channels to be deselected, as does the internal power-on reset function.&lt;p&gt;
-The pass gates of the switches are constructed such that the VCC pin can be used to limit the maximum high voltage, which will be passed by the TCA9546A. This allows the use of different bus voltages on each pair, so that 1.8-V, 2.5-V, or 3.3-V parts can communicate with 5-V parts without any additional protection. External pull-up resistors pull the bus up to the desired voltage lev</description>
+&lt;/ul&gt;&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="TCA9546A" x="0" y="0"/>
 </gates>
