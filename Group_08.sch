@@ -6583,8 +6583,8 @@ This library contains symbols and footprints for the CY8CKIT-059 prototyping kit
 <instance part="SUPPLY5" gate="G$1" x="149.86" y="104.14" smashed="yes">
 <attribute name="VALUE" x="149.86" y="106.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND3" gate="1" x="149.86" y="55.88" smashed="yes">
-<attribute name="VALUE" x="149.86" y="55.626" size="1.778" layer="96" align="top-center"/>
+<instance part="GND3" gate="1" x="149.86" y="45.72" smashed="yes">
+<attribute name="VALUE" x="149.86" y="45.466" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J8" gate="G$1" x="104.14" y="154.94" smashed="yes">
 <attribute name="VALUE" x="99.06" y="142.494" size="1.778" layer="96" font="vector"/>
@@ -6670,11 +6670,11 @@ This library contains symbols and footprints for the CY8CKIT-059 prototyping kit
 <pinref part="U3" gate="G$1" pin="RESET"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="152.4" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="88.9" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="88.9" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="152.4" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="71.12" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-<junction x="149.86" y="58.42"/>
+<wire x1="149.86" y1="71.12" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
+<junction x="149.86" y="48.26"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
