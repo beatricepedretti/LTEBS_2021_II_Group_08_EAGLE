@@ -10,3 +10,4 @@ the 10mil minimum track width requested in the assignment specifications caused 
 - We positioned the light sensor as far away as possible from the LED in order to avoid luminous interference given by the LED. We also tried to position the light sensor as isolated as possible from "tall" components in order to avoid shadows that could interfere with the sensor's measurements.
 - We positioned the temperature sensor as far away as possible from the power supply in order to avoid interference given by possible heating of the power supply.
 - For the copper pour we used isolation 8 that is the minimum allowed by the manufacturer
+- We put jumpers on side of the board
