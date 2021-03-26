@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
@@ -194,10 +194,18 @@
 <hole x="50.8" y="74.93" drill="3"/>
 <hole x="2.51748125" y="2.396565625" drill="3"/>
 <hole x="50.262125" y="2.774565625" drill="3"/>
-<text x="46.317178125" y="72.0443" size="0.8128" layer="21">12V</text>
+<text x="46.790221875" y="59.81976875" size="0.8128" layer="21">12V</text>
 <text x="42.4500875" y="50.579365625" size="0.8128" layer="21" rot="R180">5V</text>
 <dimension x1="0" y1="77.47" x2="53.34" y2="77.47" x3="26.67" y3="80.01" textsize="1.778" layer="51"/>
 <dimension x1="0" y1="0" x2="0" y2="77.47" x3="-2.54" y3="38.735" textsize="1.778" layer="51"/>
+<text x="47.332409375" y="8.90254375" size="0.6096" layer="21" rot="R90">MUX INPUT</text>
+<text x="2.548359375" y="41.84559375" size="0.6096" layer="22" rot="R90">P00</text>
+<text x="2.54" y="44.45" size="0.6096" layer="22" rot="R90">P01</text>
+<text x="2.54" y="46.99" size="0.6096" layer="22" rot="R90">P02</text>
+<text x="2.54" y="49.53" size="0.6096" layer="22" rot="R90">P03</text>
+<text x="2.54" y="52.07" size="0.6096" layer="22" rot="R90">P04</text>
+<text x="2.54" y="54.61" size="0.6096" layer="22" rot="R90">P05</text>
+<text x="50.814825" y="65.48475" size="0.6096" layer="21" rot="R90">SWITCH</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1065,10 +1073,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.205475" y="9.981334375" size="0.6096" layer="21" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH_LOCK" value="POWER_JACKPTH_LOCK" x="38.544525" y="72.8159375" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.445034375" y="72.577953125" size="0.6096" layer="21" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="43.467434375" y="72.311746875" size="0.6096" layer="21" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-08197" x="18.224525" y="100.7559375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_ID" value="PRT-00119" x="18.224525" y="100.7559375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="43.070353125" y="73.919890625" size="0.6096" layer="21" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="43.454046875" y="70.04049375" size="0.6096" layer="21" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="1X02" value="" x="27.180590625" y="73.656609375" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.2484875" y="72.184171875" size="0.6096" layer="21" font="vector" ratio="20" rot="R180"/>
@@ -1095,7 +1103,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="47.575515625" y="53.980396875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J8" library="SparkFun-Connectors" package="1X08_LOCK" value="" x="49.83890625" y="27.3526875" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.014953125" y="8.27554375" size="0.6096" layer="21" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="47.662696875" y="9.713765625" size="0.6096" layer="21" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="47.80690625" y="28.6226875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="" x="33.586871875" y="6.07321875" smashed="yes" rot="R90">
@@ -1155,7 +1163,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="20.999440625" y="58.65656875" size="0.6096" layer="21" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="S1" library="SparkFun-Switches" package="SWITCH_SPDT_PTH_11.6X4.0MM" value="" x="47.6679625" y="65.19875" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.0809625" y="65.19875" size="0.6096" layer="21" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="50.22620625" y="70.6126" size="0.6096" layer="21" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="SWCH-08261" x="19.7279625" y="98.21875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_SKU" value="COM-00102" x="19.7279625" y="98.21875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="45.2549625" y="65.19875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -1163,7 +1171,7 @@ design rules under a new name.</description>
 <element name="U1" library="SparkFun-IC-Power" package="TO-252" value="+12v" x="44.532534375" y="41.9906875" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.28670625" y="45.732784375" size="1.27" layer="21"/>
 <attribute name="PROD_ID" value="VREG-12370" x="11.512534375" y="3.8906875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="41.992534375" y="36.9106875" size="1.27" layer="21"/>
+<attribute name="VALUE" x="43.801171875" y="36.867646875" size="1.27" layer="21"/>
 </element>
 <element name="U2" library="SparkFun-Sensors" package="TO-92" value="" x="2.54" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.54" y="69.85" size="0.6096" layer="21" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -1173,11 +1181,11 @@ design rules under a new name.</description>
 </element>
 <element name="U3" library="Group_08_Library" package="TSSOP16" value="TCA9546ATSSOP" x="18.71465625" y="50.744715625" smashed="yes">
 <attribute name="NAME" x="21.0972125" y="55.42764375" size="0.8128" layer="21"/>
-<attribute name="VALUE" x="19.45023125" y="54.161990625" size="0.8128" layer="21"/>
+<attribute name="VALUE" x="16.4832" y="47.60729375" size="0.4064" layer="21"/>
 </element>
 <element name="U4" library="Group_08_Library" package="QFN16" value="TMUX1208" x="40.989034375" y="19.476334375" smashed="yes">
-<attribute name="NAME" x="41.236128125" y="21.0977625" size="0.4064" layer="21"/>
-<attribute name="VALUE" x="42.40729375" y="21.090396875" size="0.4064" layer="21"/>
+<attribute name="NAME" x="39.275878125" y="20.837753125" size="0.4064" layer="21"/>
+<attribute name="VALUE" x="39.0750875" y="17.8924375" size="0.4064" layer="21" rot="R90"/>
 </element>
 </elements>
 <signals>
