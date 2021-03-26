@@ -7206,16 +7206,6 @@ from GND to VDD</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="101,1,22.86,127,D1,A,,,,"/>
-<approved hash="108,1,228.6,114.3,5V,,,,,"/>
-<approved hash="108,1,208.28,114.3,5V,,,,,"/>
-<approved hash="108,1,248.92,114.3,5V,,,,,"/>
-<approved hash="108,1,238.76,114.3,5V,,,,,"/>
-<approved hash="108,1,38.1,48.26,5V,,,,,"/>
-<approved hash="108,1,218.44,114.3,5V,,,,,"/>
-<approved hash="108,1,259.08,114.3,5V,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
