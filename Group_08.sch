@@ -6987,34 +6987,6 @@ from GND to VDD</description>
 <wire x1="200.66" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MUX_A0/1.3C" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="A0"/>
-<wire x1="200.66" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
-<label x="198.12" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MUX_A1/1.4C" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="A1"/>
-<wire x1="200.66" y1="58.42" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
-<label x="177.8" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MUX_A2/1.4C" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="A2"/>
-<wire x1="200.66" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
-<label x="198.12" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MUX_OUT/1.4C" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="D"/>
-<wire x1="231.14" y1="71.12" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
-<label x="236.22" y="71.12" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_0.0"/>
@@ -7071,32 +7043,52 @@ from GND to VDD</description>
 <wire x1="86.36" y1="35.56" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MUX_A0/2.3C" class="0">
+<net name="MUX_A0" class="0">
 <segment>
 <pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.7"/>
 <wire x1="88.9" y1="78.74" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
 <label x="88.9" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-</net>
-<net name="MUX_A1/2.3C" class="0">
 <segment>
-<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.6"/>
-<wire x1="91.44" y1="78.74" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
-<label x="91.44" y="106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U4" gate="G$1" pin="A0"/>
+<wire x1="200.66" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+<label x="198.12" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_A2/2.3C" class="0">
+<net name="MUX_A1" class="0">
+<segment>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.6"/>
+<wire x1="91.44" y1="78.74" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
+<label x="91.44" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="A1"/>
+<wire x1="200.66" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
+<label x="185.42" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MUX_A2" class="0">
 <segment>
 <pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.5"/>
 <wire x1="93.98" y1="78.74" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="93.98" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="A2"/>
+<wire x1="200.66" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
+<label x="198.12" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="MUX_OUT/2.5C" class="0">
+<net name="MUX_OUT" class="0">
 <segment>
 <pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.4"/>
-<wire x1="96.52" y1="78.74" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
-<label x="96.52" y="104.14" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="96.52" y1="78.74" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
+<label x="96.52" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="D"/>
+<wire x1="231.14" y1="71.12" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
+<label x="236.22" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SCL_0" class="0">
